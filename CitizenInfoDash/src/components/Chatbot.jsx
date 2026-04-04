@@ -34,7 +34,7 @@ export default function Chatbot({ context }) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          model: "meta-llama/Meta-Llama-3-8B-Instruct",
+          model: "meta-llama/Llama-3.2-1B-Instruct",
           messages: apiMessages,
           max_tokens: 500
         })
